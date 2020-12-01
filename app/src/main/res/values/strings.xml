@@ -1,0 +1,117 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ThoTot</string>
+    <string name="app_title">ThợTốt</string>
+
+    <!--Login-->
+    <string name="txt_phone_number_login">Đăng nhập bằng số điện thoại</string>
+    <string name="txt_google_login">Đăng nhập bằng Google</string>
+    <string name="txt_facebook_login">Đăng nhập bằng Facebook</string>
+    <string name="txt_register_question">Chưa có tài khoản?</string>
+    <string name="txt_register">Đăng ký ngay</string>
+
+    <!--Phone Number Login-->
+    <string name="txt_sdt">Số điện thoại</string>
+    <string name="hint_sdt">Nhập số điện thoại</string>
+    <string name="txt_password">Mật khẩu</string>
+    <string name="hint_password">Nhập mật khẩu</string>
+    <string name="txt_login">Đăng nhập</string>
+    <string name="txt_forgot_pass">Quên mật khẩu?</string>
+    <string name="txt_hello">Chào buổi sáng.</string>
+
+    <!-- Menu -->
+    <string name="txt_home">Trang chủ</string>
+    <string name="txt_activity">Hoạt động</string>
+    <string name="txt_mailbox">Hộp thư</string>
+    <string name="txt_user">Tài khoản</string>
+
+    <!-- Home Fragment -->
+    <string name="txt_air_conditioner">Sửa chữa điện lạnh</string>
+    <string name="txt_plug">Sửa chữa điện gia dụng</string>
+    <string name="txt_water">Sửa chữa ống nước, tắt cầu</string>
+    <string name="txt_maintenance">Sửa xe</string>
+    <string name="txt_padlock">Sửa khóa</string>
+
+    <!-- Air Activity -->
+    <string name="txt_timeandplace">Thời gian và địa điểm</string>
+    <string name="txt_workplace">Nơi làm việc</string>
+    <string name="txt_workplace_detail">FPT University, HCM, Khu Công Nghệ Cao, Long Thạnh Mỹ, District 9, Ho Chi Minh City</string>
+    <string name="txt_day">Chọn ngày làm</string>
+    <string name="txt_day_detail">Ngày mai 17/6/2020</string>
+    <string name="txt_time">Chọn giờ làm</string>
+    <string name="txt_time_detail">08:00 AM</string>
+    <string name="txt_info">Thông tin liên h</string>
+    <string name="txt_name">Tên liên hệ</string>
+    <string name="txt_name_detail">Đỗ Hữu Phát</string>
+    <string name="txt_number">Số điện thoại</string>
+    <string name="txt_phone_number_detail">034 866 9124</string>
+    <string name="txt_problem">Vẫn đề bạn gặp phải</string>
+    <string name="txt_problem_hint">- Máy lạnh không mát mặc dù có tiếng chạy rè rè</string>
+    <string name="txt_upload">Đăng tìm ngay thợ tốt</string>
+    <string name="txt_choose_location">Chọn vị trí làm việc</string>
+    <string name="txt_find_switch">Tìm ngay</string>
+    <string name="txt_cost">Khoảng giá đề xuất</string>
+    <string name="txt_from">Từ</string>
+    <string name="txt_to">Đến</string>
+
+    <!-- Map Activity -->
+    <string name="txt_btn_choose_location">Chọn vị trí này</string>
+    <string name="txt_upload_success_title">Đăng tìm thợ tốt thành công</string>
+    <string name="txt_upload_success_content">Chúng tôi sẽ thông báo đến bạn ngay khi có hỗ trợ</string>
+
+    <!-- Activity Fragment -->
+    <string name="txt_requested">Đã yêu cầu</string>
+    <string name="txt_accepted">Đã chấp nhận</string>
+    <string name="txt_history">Lịch sử</string>
+
+    <!--Requested Fragment-->
+    <string name="txt_requested_time_title1">8h sáng mai</string>
+    <string name="txt_requested_time_title2">3h chiều mai</string>
+    <string name="txt_requested_title1">Sửa chữa máy lạnh</string>
+    <string name="txt_requested_title2">Sửa khóa</string>
+    <string name="txt_requested_address">Địa chỉ: 33/2 Tam Đa, P.Long Trường, TP.HCM</string>
+    <string name="txt_requested_time1">Thời gian: 08:00 sáng | Ngày 7/7/2020</string>
+    <string name="txt_requested_time2">Thời gian: 03:00 chiều | Ngày 7/7/2020</string>
+    <string name="txt_requested_status_found">Có 2 thợ tốt đã đồng ý</string>
+    <string name="txt_requested_status_finding" tools:ignore="TypographyEllipsis">Đang tìm thợ tốt...</string>
+    <string name="txt_requested_air_problem" tools:ignore="Typos">Vấn đề: - Máy lạnh không mát mặc dù có tiếng chạy rè rè</string>
+    <string name="txt_requested_clock_problem">Vấn đề: - Khóa hỏng, không mở được từ bên trong lẫn bên ngoài</string>
+    <string name="txt_requested_choose">Xem và lựa chọn</string>
+
+    <!-- Accepted Fragment -->
+    <string name="txt_employee_name1">Trần Huy Quang</string>
+    <string name="txt_employee_ex1">Đã sửa chữa 403 vấn đề</string>
+    <string name="txt_employee_name2">Trần Hoàng Hưng</string>
+    <string name="txt_employee_ex2">Đã sửa chữa 125 vấn đề</string>
+
+    <!-- MailBox Fragment -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_mark_button">Đánh dấu đã đọc tất cả</string>
+    <string name="txt_mail_title">Thông báo mới về ứng dụng</string>
+    <string name="txt_mail_content" tools:ignore="TypographyEllipsis">Yêu Nhà thông báo đến bạn rằng ứng sẽ...</string>
+    <string name="txt_mail_day">25 tháng 6 năm 2020, 07:30pm</string>
+    <string name="txt_notify">Xem thông báo</string>
+    <string name="txt_update_app_button">Cập nhật ngay</string>
+    <string name="txt_notify_title">Cập nhật ứng dụng Yêu Nhà ngay hôm nay</string>
+    <string name="txt_notify_datetime">Jun 06 2020, 07:30pm</string>
+    <string name="txt_notify_opener">Lorem ipsum dolor sit amet</string>
+    <string name="txt_notify_content">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa ui officia deserunt mollit anim id est laborum.</string>
+
+    <!-- Profile Fragment -->
+    <string name="txt_profile_name">Đỗ Hữu Phát</string>
+    <string name="txt_feedback_content">Sẽ thật tuyệt vời nếu Yêu Nhà nhận được đánh giá của bạn nhằm nâng cao chất lượng dịch vụ</string>
+    <string name="txt_feedback_title">Đánh giá của bạn</string>
+    <string name="txt_edit_profile">Sửa thông tin cá nhân</string>
+    <string name="txt_favorite">Người giúp việc/thợ yêu thích</string>
+    <string name="txt_setting">Cài đặt</string>
+    <string name="txt_help">Trợ giúp</string>
+    <string name="txt_emergency">Gọi điện khẩn cấp</string>
+    <string name="txt_about">Về Nhà Yêu</string>
+    <string name="txt_logout">Đăng xuất</string>
+
+    <!-- Emp Selector Activity -->
+    <string name="txt_emp_selector">Xem và lựa chọn thợ tốt</string>
+    <string name="txt_select_button">Chọn thợ này</string>
+    <string name="txt_employee_name3">Hoàng Việt Anh</string>
+    <string name="txt_employee_ex3">Đã sửa chữa 567 vấn đề</string>
+
+</resources>

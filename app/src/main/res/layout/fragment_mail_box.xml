@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MailBoxFragment"
+    android:background="@color/colorSmoke">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_mailbox"
+        android:padding="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txt_mark_button"
+        android:textColor="@color/colorWhite"
+        style="@style/LoginButton"
+        android:padding="10dp"
+        android:background="@drawable/bg_general_rounded_corners_rectangle"
+        android:id="@+id/btn_to_main"
+        android:drawableStart="@drawable/ic_double_check"
+        android:drawablePadding="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"/>
+
+</RelativeLayout>
